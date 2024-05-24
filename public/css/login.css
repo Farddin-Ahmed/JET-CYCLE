@@ -1,0 +1,21 @@
+.flink{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 10px;
+    padding-right: 50px;
+}
+.flink a{
+    text-decoration: none;
+    color: green;
+    font-size: 17px;
+    font-weight: bold;
+}
+.flink a:hover{
+    color: blue;
+}
+.container{
+    height: 70%;
+}

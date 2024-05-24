@@ -1,0 +1,124 @@
+.smainsection{
+    background-image: url(/public/img/bg_signup.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 25%;
+    height: 80%;
+    backdrop-filter: blur(14px);
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.526);
+    border-radius: 24px;
+}
+.container form{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.heading h1{
+    margin: 10px;
+}
+.inpd{
+    background-color: transparent;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.inpd input{
+    width: 80%;
+    height: 25px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+}
+.inpd input:focus + label{
+    transform: translateY(0px);
+    color: white;
+    z-index: 2;
+}
+.inpd input:user-valid + label{
+    transform: translateY(0px);
+    color: white;
+    z-index: 2;
+}
+.inpd label{
+    transform: translateY(22.5px);
+    order: -1;
+    z-index: -1;
+    margin-left: 13%;
+    transition: all 0.3s ease-in;
+    color: white;
+}
+.inpd p{
+    color: red;
+    margin-top: -5px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+#lbg{
+    margin: 10px;
+    margin-right: 60%;
+    color: white;
+}
+.inpds{
+    background-color: transparent;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30px;
+    color: white;
+}
+.inpds input{
+    width: 15px;
+    height: 15px;
+}
+.subbttn{
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subbttn input{
+    width: 40%;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.subbttn input:hover{
+    background-color: rgb(172, 172, 172);
+}
+.llink p{
+    color: white;
+}
+.llink a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+.llink a:hover{
+    color: blue;
+}
